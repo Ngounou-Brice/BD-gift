@@ -1,0 +1,88 @@
+body {
+  /* background: linear-gradient(135deg, #ff9a9e, #fad0c4); */
+  background-image: url("/src/assets/Divine1.png");
+  font-family: sans-serif;
+  /* background-repeat: no-repeat; */
+  /* display: flex; */
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  /* height: 40.5rem; */
+  margin: 0;
+  padding: 0;
+}
+
+.card, .app {
+  max-width: 400px;
+  margin: auto;
+  padding: 50px;
+  background: white;
+  border-radius: 20px;
+  text-align: center;
+}
+
+.not {
+  font-size: 17px;
+  color: #555;
+  margin-bottom: 8px;
+  display: block;
+  text-align: left;;
+}
+
+.no{
+  width: 80%;
+  padding: 10px;
+  margin-bottom: 20px;
+  border: 1px solid #ddd;
+  border-radius: 6px;
+}
+
+button {
+  background: #ff4d6d;
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  font-size: 16px;
+  border-radius: 6px;
+  cursor: pointer;
+  
+}
+
+.slide {
+  width: 100%;
+  border-radius: 50%;
+}
+
+:hover .no {
+  border-color: #ff4d6d;
+  box-shadow: 0 0 5px rgba(255, 77, 109, 0.5);
+}
+
+:hover button {
+  background: #4d94ff;
+  box-shadow: 0 0 10px rgba(255, 77, 109, 0.7);
+}
+
+:hover 
+.card, .app {
+  box-shadow: 0 0 20px rgba(153, 0, 28, 0.5);
+}
+
+.app {
+    background-image: 
+    linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)),
+    url("/cover.jpeg");
+  background-size: cover;
+  background-position: center;
+  color: white;
+  margin-top: 20px;
+}
+.card {
+  margin-top: 250px;
+  background-image: 
+    linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)),
+    url("/cover.jpeg");
+  background-size: cover;
+  background-position: center;
+  color: white;
+}
